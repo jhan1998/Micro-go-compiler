@@ -1,15 +1,8 @@
 # Micro-go-compiler
-# μGo: A Simple Go Programming
 
-# Language
-
-**Compiler 2020 Programming Assignment III**
+## Language
 
 **μGO Compiler for Java Assembly Code Generation**
-
-**Due Date: June 11, 2020 at 23:**
-
-**Demonstration: June 12, 2020 from 10:00 to 17:**
 
 This assignment is to generate Java assembly code (for Java Virtual Machines) of the given μGO
 
@@ -28,7 +21,7 @@ Install dependencies: $ sudo apt install flex bison
 Java Virtual Machine (JVM): $ sudo apt install default-jre
 Java Assembler (Jasmin) is included in the Compiler hw3 file.
 ```
-## 1. Java Assembly Code Generation
+### 1. Java Assembly Code Generation
 
 In this assignment, you have to build a μGO compiler.
 
@@ -50,7 +43,7 @@ steps are described as follows.
 * The Java assembly code can be converted into the Java Bytecode (.class file) through the Java assembler, Jasmin, i.e., use $ java -jar jasmin.jar hw3.j to generate Main.class.
 * Run the Java program (.class file) with Java Virtual Machine (JVM); the program should generate the execution results required by this assignment, i.e., use $ java Main.class to run the executable.
 
-## 3. What Should Your Compiler Do?
+### 3. What Should Your Compiler Do?
 
 In Assignment 3, the flex/bison file only need to print out the error messages, we score your
 
@@ -62,12 +55,12 @@ When ERROR occurs during the parsing phase, we expect your compiler to print out
 
 messages, as Assignment 2 did, and DO NOT generate the Java assembly code (.j file).
 
-### Each test case is 10pt and the total score is 130pt
+#### Each test case is 10pt and the total score is 130pt
 
 There 13 test cases which are all included in the Compiler hw3 file.
 
 
-## 4. References
+### 4. References
 
 * Jasmin instructions: http://jasmin.sourceforge.net/instructions.html
 * Java bytecode instruction listings: https://en.wikipedia.org/wiki/Java_bytecode_instruction_listings
